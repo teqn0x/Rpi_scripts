@@ -1,9 +1,9 @@
-rm /etc/ssh/ssh_host_* && dpk-reconfigure openssh-server
-apt-get update
-apt-get install lxde-icon-theme
-apt-get install ntp fake-hwclock
-dpkg-reconfigure tzdata
-apt-get install locales
-dpkg-reconfigure locales
-apt-get install console-setup keyboard-configuration
-dpkg-reconfigure keyboard-configuration
+sudo rm /etc/ssh/ssh_host_* && dpkg-reconfigure openssh-server
+sudo apt-get update
+sudo apt-get install lxde-icon-theme
+sudo apt-get install ntp fake-hwclock
+sudo dpkg-reconfigure tzdata
+sudo apt-get install locales
+sudo dpkg-reconfigure locales
+sudo apt-get install console-setup keyboard-configuration
+sudo dpkg-reconfigure keyboard-configuration
