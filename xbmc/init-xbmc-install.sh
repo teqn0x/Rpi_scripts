@@ -1,0 +1,2 @@
+sudo apt-get install -f libmysqlclient-dev libmicrohttpd-dev libhal-dev libssh-dev libfribidi-dev libyajl-dev libboost-dev libass-dev libmpeg2-4-dev libmad0-dev libjpeg-dev libsamplerate-dev libogg-dev libvorbis-dev libmodplug-dev libflac-dev python-dev libbz2-dev libsqlite3-dev libpng-dev libpcre++-dev libcdio-dev libbluetooth-dev libsmbclient-dev libplist-dev libiso9660-dev libtinyxml-dev liblzo2-dev libhal-storage-dev
+
